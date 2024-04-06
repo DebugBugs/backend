@@ -9,7 +9,8 @@ class UsersController < ApplicationController
     def show
         begin
             @user = User.find(params[:id])
-            render json: {user: @user}
+            records = Record.where(user_id: @user.id).order(created_at: :desc).limit(168)
+            render json: {user: @user, energy_records: records }
         rescue 
             render json: {error: 'User not found'}
         end 
@@ -52,5 +53,4 @@ class UsersController < ApplicationController
         def user_params
             params.require(:user).permit(:username, :password)
         end
-
 end
