@@ -9,7 +9,7 @@ class UsersController < ApplicationController
     def show
         begin
             @user = User.find(params[:id])
-            records = Record.where(user_id: @user.id).order(created_at: :desc).limit(24)
+            records = Record.where(user_id: @user.id).order(created_at: :desc).limit(7)
             render json: {user: @user, energy_records: records }
         rescue 
             render json: {error: 'User not found'}
@@ -48,13 +48,23 @@ class UsersController < ApplicationController
     end
 
     def appliances
+        @user = User.find_by(params[:id])
+        if @user
+            @user.aircon = params[:appliances][:aircon]
+            @user.laundry = params[:appliances][:laundry]
+            @user.fridge = params[:appliances][:fridge]
+            @user.others = params[:appliances][:others]
+            @user.save
+        end
+    end
+
+    def generate_goals
         @user = User.find_by(params[:user_id])
         if @user
-            @user.aircon = params[:aircon]
-            @user.laundry = params[:laundry]
-            @user.fridge = params[:fridge]
-            @user.others = params[:others]
-            @user.save
+            goal = Goal.new()
+            goal.goal = "Sample"
+            goal.save
+            render json: {goal:  goal}
         end
     end
 
