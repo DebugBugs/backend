@@ -10,8 +10,6 @@ gem "sprockets-rails"
 
 gem "pg", "~> 1.1"
 
-gem "mysql2"
-
 gem "jwt"
 
 gem 'rufus-scheduler'
