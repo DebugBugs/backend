@@ -54,6 +54,7 @@ class UsersController < ApplicationController
             @user.laundry = params[:laundry]
             @user.fridge = params[:fridge]
             @user.others = params[:others]
+            @user.save
         end
     end
 
