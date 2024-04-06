@@ -4,7 +4,7 @@ class CreateUsers < ActiveRecord::Migration[7.1]
       t.string :username
       t.string :password
       t.integer :health
-      t.string :level
+      t.string :status
       t.integer :currency
       t.timestamps
     end
