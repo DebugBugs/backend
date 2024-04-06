@@ -48,7 +48,7 @@ class UsersController < ApplicationController
     end
 
     def appliances
-        @user = User.find_by(params[:id])
+        @user = User.find(params[:id])
         if @user
             @user.aircon = params[:appliances][:aircon]
             @user.laundry = params[:appliances][:laundry]
