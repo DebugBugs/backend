@@ -9,7 +9,7 @@ class UsersController < ApplicationController
     def show
         begin
             @user = User.find(params[:id])
-            records = Record.where(user_id: @user.id).order(created_at: :desc).limit(168)
+            records = Record.where(user_id: @user.id).order(created_at: :desc).limit(5)
             render json: {user: @user, energy_records: records }
         rescue 
             render json: {error: 'User not found'}
@@ -29,6 +29,7 @@ class UsersController < ApplicationController
     def create
         @user = User.new(user_params)
         @user.health = 100
+        @user.level =  "healthy"
         @user.currency = 0
         if @user.save
             token = encode_token({user_id: @user.id})

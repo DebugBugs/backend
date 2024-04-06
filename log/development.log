@@ -1265,3 +1265,643 @@ Completed 201 Created in 30ms (Views: 0.2ms | ActiveRecord: 14.4ms | Allocations
   ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
   [1m[36mTRANSACTION (1.4ms)[0m  [1m[35mCOMMIT[0m
   ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (3.3ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ config/initializers/scheduler.rb:7:in `block in <main>'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mRecord Create (0.8ms)[0m  [1m[32mINSERT INTO `records` (`energy_usage`, `user_id`, `created_at`, `updated_at`) VALUES (7, 1, '2024-04-06 08:43:00.347625', '2024-04-06 08:43:00.347625')[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ config/initializers/scheduler.rb:7:in `block in <main>'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mRecord Create (0.5ms)[0m  [1m[32mINSERT INTO `records` (`energy_usage`, `user_id`, `created_at`, `updated_at`) VALUES (9, 1, '2024-04-06 08:43:10.584167', '2024-04-06 08:43:10.584167')[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ config/initializers/scheduler.rb:7:in `block in <main>'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mRecord Create (0.2ms)[0m  [1m[32mINSERT INTO `records` (`energy_usage`, `user_id`, `created_at`, `updated_at`) VALUES (7, 1, '2024-04-06 08:43:20.534315', '2024-04-06 08:43:20.534315')[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (2.1ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ config/initializers/scheduler.rb:7:in `block in <main>'
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mRecord Create (1.0ms)[0m  [1m[32mINSERT INTO `records` (`energy_usage`, `user_id`, `created_at`, `updated_at`) VALUES (4, 1, '2024-04-06 08:43:30.498393', '2024-04-06 08:43:30.498393')[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (1.7ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ config/initializers/scheduler.rb:7:in `block in <main>'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mRecord Create (1.5ms)[0m  [1m[32mINSERT INTO `records` (`energy_usage`, `user_id`, `created_at`, `updated_at`) VALUES (4, 1, '2024-04-06 08:43:40.466731', '2024-04-06 08:43:40.466731')[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mTRANSACTION (1.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (2.8ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ config/initializers/scheduler.rb:7:in `block in <main>'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mRecord Create (1.1ms)[0m  [1m[32mINSERT INTO `records` (`energy_usage`, `user_id`, `created_at`, `updated_at`) VALUES (5, 1, '2024-04-06 08:43:50.386848', '2024-04-06 08:43:50.386848')[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ config/initializers/scheduler.rb:7:in `block in <main>'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mRecord Create (0.9ms)[0m  [1m[32mINSERT INTO `records` (`energy_usage`, `user_id`, `created_at`, `updated_at`) VALUES (10, 1, '2024-04-06 08:44:00.315015', '2024-04-06 08:44:00.315015')[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (2.4ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ config/initializers/scheduler.rb:7:in `block in <main>'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mRecord Create (1.5ms)[0m  [1m[32mINSERT INTO `records` (`energy_usage`, `user_id`, `created_at`, `updated_at`) VALUES (10, 1, '2024-04-06 08:44:10.570772', '2024-04-06 08:44:10.570772')[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mTRANSACTION (1.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ config/initializers/scheduler.rb:7:in `block in <main>'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mRecord Create (1.0ms)[0m  [1m[32mINSERT INTO `records` (`energy_usage`, `user_id`, `created_at`, `updated_at`) VALUES (1, 1, '2024-04-06 08:44:20.505673', '2024-04-06 08:44:20.505673')[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (1.9ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ config/initializers/scheduler.rb:7:in `block in <main>'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mRecord Create (1.6ms)[0m  [1m[32mINSERT INTO `records` (`energy_usage`, `user_id`, `created_at`, `updated_at`) VALUES (10, 1, '2024-04-06 08:44:30.462012', '2024-04-06 08:44:30.462012')[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mTRANSACTION (1.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ config/initializers/scheduler.rb:7:in `block in <main>'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mRecord Create (1.4ms)[0m  [1m[32mINSERT INTO `records` (`energy_usage`, `user_id`, `created_at`, `updated_at`) VALUES (8, 1, '2024-04-06 08:44:40.408835', '2024-04-06 08:44:40.408835')[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (2.8ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ config/initializers/scheduler.rb:7:in `block in <main>'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mRecord Create (1.5ms)[0m  [1m[32mINSERT INTO `records` (`energy_usage`, `user_id`, `created_at`, `updated_at`) VALUES (5, 1, '2024-04-06 08:44:50.377927', '2024-04-06 08:44:50.377927')[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mTRANSACTION (1.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ config/initializers/scheduler.rb:7:in `block in <main>'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mRecord Create (0.8ms)[0m  [1m[32mINSERT INTO `records` (`energy_usage`, `user_id`, `created_at`, `updated_at`) VALUES (5, 1, '2024-04-06 08:45:00.584778', '2024-04-06 08:45:00.584778')[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (1.8ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ config/initializers/scheduler.rb:7:in `block in <main>'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mRecord Create (0.6ms)[0m  [1m[32mINSERT INTO `records` (`energy_usage`, `user_id`, `created_at`, `updated_at`) VALUES (7, 1, '2024-04-06 08:45:10.538805', '2024-04-06 08:45:10.538805')[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (2.9ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ config/initializers/scheduler.rb:7:in `block in <main>'
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mRecord Create (1.2ms)[0m  [1m[32mINSERT INTO `records` (`energy_usage`, `user_id`, `created_at`, `updated_at`) VALUES (4, 1, '2024-04-06 08:45:20.521337', '2024-04-06 08:45:20.521337')[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (1.7ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ config/initializers/scheduler.rb:7:in `block in <main>'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mRecord Create (1.0ms)[0m  [1m[32mINSERT INTO `records` (`energy_usage`, `user_id`, `created_at`, `updated_at`) VALUES (1, 1, '2024-04-06 08:45:30.452164', '2024-04-06 08:45:30.452164')[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (4.4ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ config/initializers/scheduler.rb:7:in `block in <main>'
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mRecord Create (1.9ms)[0m  [1m[32mINSERT INTO `records` (`energy_usage`, `user_id`, `created_at`, `updated_at`) VALUES (8, 1, '2024-04-06 08:45:40.423813', '2024-04-06 08:45:40.423813')[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mTRANSACTION (2.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (1.6ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ config/initializers/scheduler.rb:7:in `block in <main>'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mRecord Create (1.2ms)[0m  [1m[32mINSERT INTO `records` (`energy_usage`, `user_id`, `created_at`, `updated_at`) VALUES (9, 1, '2024-04-06 08:45:50.381957', '2024-04-06 08:45:50.381957')[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mTRANSACTION (1.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ config/initializers/scheduler.rb:7:in `block in <main>'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mRecord Create (0.7ms)[0m  [1m[32mINSERT INTO `records` (`energy_usage`, `user_id`, `created_at`, `updated_at`) VALUES (10, 1, '2024-04-06 08:46:00.320140', '2024-04-06 08:46:00.320140')[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ config/initializers/scheduler.rb:7:in `block in <main>'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mRecord Create (1.5ms)[0m  [1m[32mINSERT INTO `records` (`energy_usage`, `user_id`, `created_at`, `updated_at`) VALUES (7, 1, '2024-04-06 08:46:10.570999', '2024-04-06 08:46:10.570999')[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mTRANSACTION (1.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ config/initializers/scheduler.rb:7:in `block in <main>'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mRecord Create (0.8ms)[0m  [1m[32mINSERT INTO `records` (`energy_usage`, `user_id`, `created_at`, `updated_at`) VALUES (6, 1, '2024-04-06 08:46:20.505620', '2024-04-06 08:46:20.505620')[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (2.4ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ config/initializers/scheduler.rb:7:in `block in <main>'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mRecord Create (0.9ms)[0m  [1m[32mINSERT INTO `records` (`energy_usage`, `user_id`, `created_at`, `updated_at`) VALUES (7, 1, '2024-04-06 08:46:30.457558', '2024-04-06 08:46:30.457558')[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mTRANSACTION (3.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ config/initializers/scheduler.rb:7:in `block in <main>'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mRecord Create (0.5ms)[0m  [1m[32mINSERT INTO `records` (`energy_usage`, `user_id`, `created_at`, `updated_at`) VALUES (5, 1, '2024-04-06 08:46:40.406753', '2024-04-06 08:46:40.406753')[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mTRANSACTION (1.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ config/initializers/scheduler.rb:7:in `block in <main>'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mRecord Create (0.8ms)[0m  [1m[32mINSERT INTO `records` (`energy_usage`, `user_id`, `created_at`, `updated_at`) VALUES (10, 1, '2024-04-06 08:46:50.359696', '2024-04-06 08:46:50.359696')[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ config/initializers/scheduler.rb:7:in `block in <main>'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mRecord Create (1.6ms)[0m  [1m[32mINSERT INTO `records` (`energy_usage`, `user_id`, `created_at`, `updated_at`) VALUES (4, 1, '2024-04-06 08:47:00.333649', '2024-04-06 08:47:00.333649')[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mTRANSACTION (1.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ config/initializers/scheduler.rb:7:in `block in <main>'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mRecord Create (1.9ms)[0m  [1m[32mINSERT INTO `records` (`energy_usage`, `user_id`, `created_at`, `updated_at`) VALUES (8, 1, '2024-04-06 08:47:10.543666', '2024-04-06 08:47:10.543666')[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (1.7ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ config/initializers/scheduler.rb:7:in `block in <main>'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mRecord Create (1.9ms)[0m  [1m[32mINSERT INTO `records` (`energy_usage`, `user_id`, `created_at`, `updated_at`) VALUES (4, 1, '2024-04-06 08:47:20.500029', '2024-04-06 08:47:20.500029')[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mTRANSACTION (2.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (2.2ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ config/initializers/scheduler.rb:7:in `block in <main>'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mRecord Create (1.4ms)[0m  [1m[32mINSERT INTO `records` (`energy_usage`, `user_id`, `created_at`, `updated_at`) VALUES (1, 1, '2024-04-06 08:47:30.439320', '2024-04-06 08:47:30.439320')[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mTRANSACTION (1.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (3.9ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ config/initializers/scheduler.rb:7:in `block in <main>'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mRecord Create (1.6ms)[0m  [1m[32mINSERT INTO `records` (`energy_usage`, `user_id`, `created_at`, `updated_at`) VALUES (4, 1, '2024-04-06 08:47:40.384967', '2024-04-06 08:47:40.384967')[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (2.3ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ config/initializers/scheduler.rb:7:in `block in <main>'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mRecord Create (1.2ms)[0m  [1m[32mINSERT INTO `records` (`energy_usage`, `user_id`, `created_at`, `updated_at`) VALUES (1, 1, '2024-04-06 08:47:50.351170', '2024-04-06 08:47:50.351170')[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (2.2ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ config/initializers/scheduler.rb:7:in `block in <main>'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mRecord Create (1.0ms)[0m  [1m[32mINSERT INTO `records` (`energy_usage`, `user_id`, `created_at`, `updated_at`) VALUES (7, 1, '2024-04-06 08:48:00.592577', '2024-04-06 08:48:00.592577')[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mTRANSACTION (2.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ config/initializers/scheduler.rb:7:in `block in <main>'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mRecord Create (0.9ms)[0m  [1m[32mINSERT INTO `records` (`energy_usage`, `user_id`, `created_at`, `updated_at`) VALUES (1, 1, '2024-04-06 08:48:10.535848', '2024-04-06 08:48:10.535848')[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (1.6ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ config/initializers/scheduler.rb:7:in `block in <main>'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mRecord Create (1.1ms)[0m  [1m[32mINSERT INTO `records` (`energy_usage`, `user_id`, `created_at`, `updated_at`) VALUES (10, 1, '2024-04-06 08:48:20.526357', '2024-04-06 08:48:20.526357')[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mTRANSACTION (1.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ config/initializers/scheduler.rb:7:in `block in <main>'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mRecord Create (0.5ms)[0m  [1m[32mINSERT INTO `records` (`energy_usage`, `user_id`, `created_at`, `updated_at`) VALUES (8, 1, '2024-04-06 08:48:30.457900', '2024-04-06 08:48:30.457900')[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (2.2ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ config/initializers/scheduler.rb:7:in `block in <main>'
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mRecord Create (1.3ms)[0m  [1m[32mINSERT INTO `records` (`energy_usage`, `user_id`, `created_at`, `updated_at`) VALUES (1, 1, '2024-04-06 08:48:40.412798', '2024-04-06 08:48:40.412798')[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mTRANSACTION (2.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ config/initializers/scheduler.rb:7:in `block in <main>'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mRecord Create (0.4ms)[0m  [1m[32mINSERT INTO `records` (`energy_usage`, `user_id`, `created_at`, `updated_at`) VALUES (7, 1, '2024-04-06 08:48:50.428234', '2024-04-06 08:48:50.428234')[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ config/initializers/scheduler.rb:7:in `block in <main>'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mRecord Create (0.9ms)[0m  [1m[32mINSERT INTO `records` (`energy_usage`, `user_id`, `created_at`, `updated_at`) VALUES (4, 1, '2024-04-06 08:49:00.369897', '2024-04-06 08:49:00.369897')[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (3.7ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ config/initializers/scheduler.rb:7:in `block in <main>'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mRecord Create (1.2ms)[0m  [1m[32mINSERT INTO `records` (`energy_usage`, `user_id`, `created_at`, `updated_at`) VALUES (2, 1, '2024-04-06 08:49:10.334739', '2024-04-06 08:49:10.334739')[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mTRANSACTION (1.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ config/initializers/scheduler.rb:7:in `block in <main>'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mRecord Create (0.7ms)[0m  [1m[32mINSERT INTO `records` (`energy_usage`, `user_id`, `created_at`, `updated_at`) VALUES (8, 1, '2024-04-06 08:49:20.545919', '2024-04-06 08:49:20.545919')[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mTRANSACTION (2.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (1.9ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ config/initializers/scheduler.rb:7:in `block in <main>'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mRecord Create (0.5ms)[0m  [1m[32mINSERT INTO `records` (`energy_usage`, `user_id`, `created_at`, `updated_at`) VALUES (8, 1, '2024-04-06 08:49:30.499658', '2024-04-06 08:49:30.499658')[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ config/initializers/scheduler.rb:7:in `block in <main>'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mRecord Create (0.7ms)[0m  [1m[32mINSERT INTO `records` (`energy_usage`, `user_id`, `created_at`, `updated_at`) VALUES (1, 1, '2024-04-06 08:49:40.436916', '2024-04-06 08:49:40.436916')[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (2.6ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ config/initializers/scheduler.rb:7:in `block in <main>'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mRecord Create (1.4ms)[0m  [1m[32mINSERT INTO `records` (`energy_usage`, `user_id`, `created_at`, `updated_at`) VALUES (6, 1, '2024-04-06 08:49:50.402965', '2024-04-06 08:49:50.402965')[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mTRANSACTION (3.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (1.7ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ config/initializers/scheduler.rb:7:in `block in <main>'
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mRecord Create (2.5ms)[0m  [1m[32mINSERT INTO `records` (`energy_usage`, `user_id`, `created_at`, `updated_at`) VALUES (2, 1, '2024-04-06 08:50:00.342134', '2024-04-06 08:50:00.342134')[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mTRANSACTION (1.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ config/initializers/scheduler.rb:7:in `block in <main>'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mRecord Create (0.8ms)[0m  [1m[32mINSERT INTO `records` (`energy_usage`, `user_id`, `created_at`, `updated_at`) VALUES (6, 1, '2024-04-06 08:50:10.574940', '2024-04-06 08:50:10.574940')[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mTRANSACTION (1.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ config/initializers/scheduler.rb:7:in `block in <main>'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mRecord Create (0.5ms)[0m  [1m[32mINSERT INTO `records` (`energy_usage`, `user_id`, `created_at`, `updated_at`) VALUES (8, 1, '2024-04-06 08:50:20.510390', '2024-04-06 08:50:20.510390')[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ config/initializers/scheduler.rb:7:in `block in <main>'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mRecord Create (0.9ms)[0m  [1m[32mINSERT INTO `records` (`energy_usage`, `user_id`, `created_at`, `updated_at`) VALUES (10, 1, '2024-04-06 08:50:30.465685', '2024-04-06 08:50:30.465685')[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mTRANSACTION (1.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (3.1ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ config/initializers/scheduler.rb:7:in `block in <main>'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mRecord Create (2.3ms)[0m  [1m[32mINSERT INTO `records` (`energy_usage`, `user_id`, `created_at`, `updated_at`) VALUES (10, 1, '2024-04-06 08:50:40.416275', '2024-04-06 08:50:40.416275')[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mTRANSACTION (2.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (4.8ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ config/initializers/scheduler.rb:7:in `block in <main>'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mRecord Create (0.8ms)[0m  [1m[32mINSERT INTO `records` (`energy_usage`, `user_id`, `created_at`, `updated_at`) VALUES (7, 1, '2024-04-06 08:50:50.365922', '2024-04-06 08:50:50.365922')[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ config/initializers/scheduler.rb:7:in `block in <main>'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mRecord Create (1.1ms)[0m  [1m[32mINSERT INTO `records` (`energy_usage`, `user_id`, `created_at`, `updated_at`) VALUES (5, 1, '2024-04-06 08:51:00.590028', '2024-04-06 08:51:00.590028')[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ config/initializers/scheduler.rb:7:in `block in <main>'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mRecord Create (0.5ms)[0m  [1m[32mINSERT INTO `records` (`energy_usage`, `user_id`, `created_at`, `updated_at`) VALUES (2, 1, '2024-04-06 08:51:10.534880', '2024-04-06 08:51:10.534880')[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (3.6ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ config/initializers/scheduler.rb:7:in `block in <main>'
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (15.1ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mRecord Create (8.3ms)[0m  [1m[32mINSERT INTO `records` (`energy_usage`, `user_id`, `created_at`, `updated_at`) VALUES (9, 1, '2024-04-06 08:51:20.508374', '2024-04-06 08:51:20.508374')[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mTRANSACTION (1.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (2.2ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ config/initializers/scheduler.rb:7:in `block in <main>'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mRecord Create (1.1ms)[0m  [1m[32mINSERT INTO `records` (`energy_usage`, `user_id`, `created_at`, `updated_at`) VALUES (8, 1, '2024-04-06 08:51:30.421779', '2024-04-06 08:51:30.421779')[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ config/initializers/scheduler.rb:7:in `block in <main>'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mRecord Create (1.0ms)[0m  [1m[32mINSERT INTO `records` (`energy_usage`, `user_id`, `created_at`, `updated_at`) VALUES (10, 1, '2024-04-06 08:51:40.363560', '2024-04-06 08:51:40.363560')[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (2.2ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ config/initializers/scheduler.rb:7:in `block in <main>'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mRecord Create (1.2ms)[0m  [1m[32mINSERT INTO `records` (`energy_usage`, `user_id`, `created_at`, `updated_at`) VALUES (10, 1, '2024-04-06 08:51:50.315903', '2024-04-06 08:51:50.315903')[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ config/initializers/scheduler.rb:7:in `block in <main>'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mRecord Create (0.5ms)[0m  [1m[32mINSERT INTO `records` (`energy_usage`, `user_id`, `created_at`, `updated_at`) VALUES (8, 1, '2024-04-06 08:52:00.554939', '2024-04-06 08:52:00.554939')[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ config/initializers/scheduler.rb:7:in `block in <main>'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mRecord Create (0.3ms)[0m  [1m[32mINSERT INTO `records` (`energy_usage`, `user_id`, `created_at`, `updated_at`) VALUES (5, 1, '2024-04-06 08:52:10.495744', '2024-04-06 08:52:10.495744')[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ config/initializers/scheduler.rb:7:in `block in <main>'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mRecord Create (1.0ms)[0m  [1m[32mINSERT INTO `records` (`energy_usage`, `user_id`, `created_at`, `updated_at`) VALUES (9, 1, '2024-04-06 08:52:20.464037', '2024-04-06 08:52:20.464037')[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ config/initializers/scheduler.rb:7:in `block in <main>'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mRecord Create (0.5ms)[0m  [1m[32mINSERT INTO `records` (`energy_usage`, `user_id`, `created_at`, `updated_at`) VALUES (1, 1, '2024-04-06 08:52:30.418814', '2024-04-06 08:52:30.418814')[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mTRANSACTION (2.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ config/initializers/scheduler.rb:7:in `block in <main>'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mRecord Create (0.6ms)[0m  [1m[32mINSERT INTO `records` (`energy_usage`, `user_id`, `created_at`, `updated_at`) VALUES (8, 1, '2024-04-06 08:52:40.364110', '2024-04-06 08:52:40.364110')[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ config/initializers/scheduler.rb:7:in `block in <main>'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mRecord Create (0.9ms)[0m  [1m[32mINSERT INTO `records` (`energy_usage`, `user_id`, `created_at`, `updated_at`) VALUES (1, 1, '2024-04-06 08:52:50.313171', '2024-04-06 08:52:50.313171')[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ config/initializers/scheduler.rb:7:in `block in <main>'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mRecord Create (1.2ms)[0m  [1m[32mINSERT INTO `records` (`energy_usage`, `user_id`, `created_at`, `updated_at`) VALUES (7, 1, '2024-04-06 08:53:00.560009', '2024-04-06 08:53:00.560009')[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (2.5ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ config/initializers/scheduler.rb:7:in `block in <main>'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mRecord Create (1.4ms)[0m  [1m[32mINSERT INTO `records` (`energy_usage`, `user_id`, `created_at`, `updated_at`) VALUES (6, 1, '2024-04-06 08:53:10.521842', '2024-04-06 08:53:10.521842')[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mTRANSACTION (1.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ config/initializers/scheduler.rb:7:in `block in <main>'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mRecord Create (0.3ms)[0m  [1m[32mINSERT INTO `records` (`energy_usage`, `user_id`, `created_at`, `updated_at`) VALUES (6, 1, '2024-04-06 08:53:20.477227', '2024-04-06 08:53:20.477227')[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mTRANSACTION (2.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ config/initializers/scheduler.rb:7:in `block in <main>'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mRecord Create (0.9ms)[0m  [1m[32mINSERT INTO `records` (`energy_usage`, `user_id`, `created_at`, `updated_at`) VALUES (8, 1, '2024-04-06 08:53:30.427072', '2024-04-06 08:53:30.427072')[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ config/initializers/scheduler.rb:9:in `block (2 levels) in <main>'
