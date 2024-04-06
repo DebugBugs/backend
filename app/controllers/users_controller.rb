@@ -47,8 +47,22 @@ class UsersController < ApplicationController
         end
     end
 
+    def appliances
+        @user = User.find_by(params[:user_id])
+        if @user
+            @user.aircon = params[:aircon]
+            @user.laundry = params[:laundry]
+            @user.fridge = params[:fridge]
+            @user.others = params[:others]
+        end
+    end
+    
     private 
         def user_params
             params.require(:user).permit(:username, :password)
+        end
+
+        def appliance_params
+            params.required(:appliances).permit(:aircon, :laundry, :fridge, :others, :user_id)
         end
 end
