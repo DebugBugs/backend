@@ -17,12 +17,9 @@ class UsersController < ApplicationController
     end
 
     def destroy
-        begin
             @user = User.find(params[:id])
             @user.destroy
-        rescue 
-            render json: {error: 'User not found'}
-        end 
+     
     end
 
     #route for signup
