@@ -56,13 +56,13 @@ class UsersController < ApplicationController
             @user.others = params[:others]
         end
     end
-    
+
     private 
         def user_params
             params.require(:user).permit(:username, :password)
         end
 
         def appliance_params
-            params.required(:appliances).permit(:aircon, :laundry, :fridge, :others, :user_id)
+            params.required(:appliances).permit(:aircon, :laundry, :fridge, :others)
         end
 end
