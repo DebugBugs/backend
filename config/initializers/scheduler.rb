@@ -2,7 +2,7 @@ require 'rufus-scheduler'
 
 scheduler = Rufus::Scheduler.new
 
-scheduler.every '10s' do
+scheduler.every '30s' do
     users = User.all
     users.each do |user|
         energy_usage = rand(1..30)
